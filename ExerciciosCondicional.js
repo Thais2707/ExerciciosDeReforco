@@ -1,5 +1,7 @@
 const prompt = require ("prompt-sync")()
 
+//Verifique se um número é positivo, negativo ou zero
+
 // let num = Number(prompt("Escreva um numero posistivo, negativo ou 0: "))
 
 // if (num === 0){
@@ -12,6 +14,10 @@ const prompt = require ("prompt-sync")()
 //     console.log ("Erro, necessário digitar um numero.")
 // }
 
+// ------------------------------------------------------------------------------------
+
+// Verifique se um ano é bissexto
+
 // let ano = Number(prompt("Digite o ano para descobrir se é bissexto: "))
 
 // if ((ano % 4 === 0 && ano % 100 !== 0) || (ano % 400 === 0)){
@@ -19,6 +25,10 @@ const prompt = require ("prompt-sync")()
 // } else {
 //     console.log("O ano não é bissexto.")
 // }
+
+// ------------------------------------------------------------------------------------
+
+// Calcule a média de três números e determine o conceito
 
 // let nota1 = Number(prompt("Digite a primeira nota: "))
 // let nota2 = Number(prompt("Digite a segunda nota: "))
@@ -39,6 +49,10 @@ const prompt = require ("prompt-sync")()
 //     console.log("A media das notas se enquadra no conceito F.")
 // }
 
+// ------------------------------------------------------------------------------------
+
+// Verifique se um número é par ou ímpar
+
 // let num = Number(prompt("Escreva um numero: "))
 
 // if (num % 2 === 0){
@@ -46,6 +60,10 @@ const prompt = require ("prompt-sync")()
 // } else {
 //     console.log("O numero digitado é impar.")
 // }
+
+// ------------------------------------------------------------------------------------
+
+// Verifique a categoria de um nadador
 
 // let age = Number(prompt("Escreva a idade do nadador: "))
 
@@ -60,6 +78,10 @@ const prompt = require ("prompt-sync")()
 // } else {
 //     console.log("O nadador esta na categoria JUVENIL.")
 // }
+
+// ------------------------------------------------------------------------------------
+
+// Verifique o dia da semana
 
 // let day = Number(prompt("Escreva um numero de 1 a 7: "))
 
@@ -90,6 +112,10 @@ const prompt = require ("prompt-sync")()
 //         break
 // }
 
+// ------------------------------------------------------------------------------------
+
+// Calcule o valor de uma expressão matemática simples
+
 // let num1 = parseInt(prompt("Informe o primeiro numero: "))
 // let num2 = parseInt(prompt("Informe o segundo numero: "))
 // let operacao = prompt("Escreva a operação que deseja realizar (+, -, *, /): ")
@@ -117,6 +143,10 @@ const prompt = require ("prompt-sync")()
 //         break
 // }
 
+// ------------------------------------------------------------------------------------
+
+// Verifique a estação do ano
+
 // let estacao = Number(prompt("Digite o numero para saber a estação correspondente: "))
 
 // switch (estacao){
@@ -136,6 +166,10 @@ const prompt = require ("prompt-sync")()
 //         console.log("Opção invalida")
 //         break
 // }
+
+// ------------------------------------------------------------------------------------
+
+// Verifique a faixa etária de uma pessoa
 
 // let age = Number(prompt("Escreva sua idade: "))
 // let ageRange
@@ -168,16 +202,20 @@ const prompt = require ("prompt-sync")()
 //         break
 // }
 
-let peso = Number(prompt("Escreva seu peso: "))
-let altura = Number(prompt("Digite sua altura: "))
-let imc = peso / (altura * altura)
+// ------------------------------------------------------------------------------------
 
-if (imc <= 18.5){
-    console.log(`Seu IMC é ${imc.toFixed(2)} considerado "Abaixo do peso".`)
-} else if (imc >= 18.5 && imc <= 24.9){
-    console.log(`Seu IMC é ${imc.toFixed(2)} considerado "Peso normal".`)
-} else if (imc >= 25 && imc <= 29.9){
-    console.log(`Seu IMC é ${imc.toFixed(2)} considerado "Sobrepeso".`)
-} else {
-    console.log(`Seu IMC é ${imc.toFixed(2)} considerado "Obesidade".`)
-}
+// Calcule o IMC e determine a categoria
+
+// let peso = Number(prompt("Escreva seu peso: "))
+// let altura = Number(prompt("Digite sua altura: "))
+// let imc = peso / (altura * altura)
+
+// if (imc <= 18.5){
+//     console.log(`Seu IMC é ${imc.toFixed(2)} considerado "Abaixo do peso".`)
+// } else if (imc >= 18.5 && imc <= 24.9){
+//     console.log(`Seu IMC é ${imc.toFixed(2)} considerado "Peso normal".`)
+// } else if (imc >= 25 && imc <= 29.9){
+//     console.log(`Seu IMC é ${imc.toFixed(2)} considerado "Sobrepeso".`)
+// } else {
+//     console.log(`Seu IMC é ${imc.toFixed(2)} considerado "Obesidade".`)
+// }
